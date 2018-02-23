@@ -1,0 +1,22 @@
+import time
+#Zcash API Connection Info
+RPCUSER	= "Insert yours"
+RPCPASSWORD = "Insert yours"
+ZURL = "http://localhost:8232" # Change port to match zcashd config file.
+TIMEOUT = 600
+DEFAULT_FEE = 0.01
+z_address = "Insert you zcash Addres"
+
+# Polo API connection info
+api_key = "Insert you Polo API key"
+api_secret = "Insert you Polo API Secret"
+
+# Tax info settings
+accuracy = "hour"
+pair = "BTC_ZEC"
+pair = "USDT_ZEC"
+
+period = 300 # 300, 900-15min, 1800 - 30min, 7200-2hr, 14400-4hr, and 86400-24hr # Default Period
+
+startTime = 1501545600
+endTime = int(time.time()) # Defualt end time is NOW
